@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DD435FE92141A9200012421C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD435FE82141A9200012421C /* main.swift */; };
+		DD435FF02141A9600012421C /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD435FEF2141A9600012421C /* Library.swift */; };
+		DD435FF22141A96A0012421C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD435FF12141A96A0012421C /* Menu.swift */; };
+		DD435FF42141A97D0012421C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD435FF32141A97D0012421C /* Game.swift */; };
+		DD435FF62141AF340012421C /* Utility Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD435FF52141AF340012421C /* Utility Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DD435FE52141A9200012421C /* Video Game Library FINAL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Video Game Library FINAL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD435FE82141A9200012421C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DD435FEF2141A9600012421C /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		DD435FF12141A96A0012421C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		DD435FF32141A97D0012421C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DD435FF52141AF340012421C /* Utility Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utility Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				DD435FE82141A9200012421C /* main.swift */,
+				DD435FEF2141A9600012421C /* Library.swift */,
+				DD435FF12141A96A0012421C /* Menu.swift */,
+				DD435FF32141A97D0012421C /* Game.swift */,
+				DD435FF52141AF340012421C /* Utility Functions.swift */,
 			);
 			path = "Video Game Library FINAL";
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD435FF22141A96A0012421C /* Menu.swift in Sources */,
 				DD435FE92141A9200012421C /* main.swift in Sources */,
+				DD435FF02141A9600012421C /* Library.swift in Sources */,
+				DD435FF62141AF340012421C /* Utility Functions.swift in Sources */,
+				DD435FF42141A97D0012421C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
