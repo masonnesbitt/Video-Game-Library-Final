@@ -13,10 +13,13 @@ class Game {
     
     var title: String
     
+    var rating: String
+    
     var dueDate: Date?
     
-    init(title:String) {
+    init(title:String, rating:String) {
         self.title = title
+        self.rating = rating
         
     }
 }
